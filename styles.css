@@ -1,0 +1,306 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.linea1{
+    background-color: #45474B;
+    margin: 0px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.linea1 ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
+.linea1 ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 11px 20px;
+}
+
+.linea1 ul li a:hover {
+    background-color: #1f1f20;
+
+}
+
+#Entradas{
+    background-color: yellow;
+    color: #45474B;
+}
+
+#Entradas:hover{
+    background-color: rgb(190, 190, 18);
+}
+
+#listaArriba{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    margin-left: 160px;
+    margin-bottom: 15px;
+    
+}
+
+#listaArriba li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+}
+
+#listaAbajo{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-left: 90px;
+}
+
+#listaAbajo li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+.logo img{
+    width: 120px;
+    height: 70px;
+}
+
+.logo{
+    display: flex;
+    margin: 35px 75px;
+}
+
+.listas{
+    display: flex;
+}
+
+.listasLogo{
+    display: flex;
+    
+}
+
+#HazteAmigo{
+    margin-top: 30px;
+}
+
+#listaArriba li a:hover{
+    color: #706233;
+}
+
+#listaAbajo li a:hover{
+    color:#706233
+}
+
+.ContenedorDeFotos{
+    display: flex; 
+    width: 70%;
+    overflow-x: scroll;
+    gap: 20px;
+}
+
+.ContenedorDeFotos img{
+
+    width: 600px;
+    background-color: white;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background-color: beige;
+}
+
+.ContenedorTextoFoto{
+    margin-top: 30px;
+}
+
+.ContenedorTextoFoto a{
+    text-decoration: none;
+    color: rgb(131, 100, 22);
+    background-color: rgb(255, 255, 195);
+    padding: 10px;
+}
+
+.ContenedorTextoFoto a:hover{
+    background-color: rgb(255, 255, 159);
+}
+
+.botonContenedor{
+    margin-bottom: 40px;
+}
+
+.tituloContenedor{
+    margin-bottom: 20px;
+}
+
+.Tarjeta{
+    padding-left: 100px;
+}
+
+.FotosExposiciones{
+    display: flex;
+    gap: 20px;
+    padding-left: 100px;
+}
+
+.TituloExposiciones{
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+
+.BotonExposiciones{
+    display: flex;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.BotonExposiciones a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(56, 56, 56);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.BotonExposiciones a:hover{
+    background-color: rgb(27, 27, 27);
+}
+
+.TituloColeccion{
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+
+.ImagenColeccion{
+    display: flex;
+    padding-left: 100px;
+}
+
+.FotosActividades{
+    display: flex;
+    padding-left: 100px;
+    gap: 60px;
+}
+
+
+.FotosActividades img{
+    width: 200px;
+    height: 200px;
+}
+
+.TarjetaActividades{
+    width: 260px;
+}
+
+.TituloActividades{
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.TarjetaActividades .ImagenActividadesE{
+    width: 250px;
+    height: 300px;
+}
+
+.TarjetaActividades .ImagenesActividades{
+    width: 300px;
+}
+
+.ContenedorDeVideos{
+    display: flex;
+    padding-left: 100px;
+    padding-top: 20px;
+    gap: 30px;
+}
+
+.TarjetaVideos figcaption a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    background-color: rgb(255, 255, 159);
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.BotonesVideos{
+    display: flex;
+}
+
+.TarjetaVideos figcaption p{
+    font-size: x-large;
+}
+
+.TituloMultimedia1, .TituloMultimedia2{
+    padding-left: 100px;
+}
+
+.TituloMultimedia1{
+    padding-top: 30px;
+}
+
+.BotonActividades{
+    padding-left: 100px;
+    padding-top: 15px;
+}
+
+.BotonActividades a{
+    text-decoration: none;
+    color: white;
+    background-color: #45474B;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.BotonActividades a:hover{
+    background-color: #1f1f20;
+}
+
+.TituloAudios{
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.ContenedorAudios{
+    display: flex;
+    gap: 20px;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.TituloPublicaciones{
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.ContenedorPublicaciones{
+    display: flex;
+    padding-left: 100px;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.ContenedorImagenesFinal1{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ContenedorImagenesFinal2{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
